@@ -1,0 +1,315 @@
+@font-face {
+    font-family: 'aileronthin';
+    src: url('Aileron-Thin-webfont.eot');
+    src: url('Aileron-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Aileron-Thin-webfont.woff2') format('woff2'),
+         url('Aileron-Thin-webfont.woff') format('woff'),
+         url('Aileron-Thin-webfont.ttf') format('truetype'),
+         url('Aileron-Thin-webfont.svg#aileronthin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'aileronbold';
+    src: url('Aileron-Bold-webfont.eot');
+    src: url('Aileron-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Aileron-Bold-webfont.woff2') format('woff2'),
+         url('Aileron-Bold-webfont.woff') format('woff'),
+         url('Aileron-Bold-webfont.ttf') format('truetype'),
+         url('Aileron-Bold-webfont.svg#aileronbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'aileronregular';
+    src: url('Aileron-Regular-webfont.eot');
+    src: url('Aileron-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Aileron-Regular-webfont.woff2') format('woff2'),
+         url('Aileron-Regular-webfont.woff') format('woff'),
+         url('Aileron-Regular-webfont.ttf') format('truetype'),
+         url('Aileron-Regular-webfont.svg#aileronregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "aileronregular", sans-serif;
+}
+  
+  
+
+.container
+{
+	display: flex;
+	width: auto;
+	height: 380px;
+	
+}
+
+.aside
+{
+	width: 25%;
+	
+	background-color: #FDD835;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.aside p
+{
+	color: #424242;
+}
+
+#photo img
+{
+	border: 4px solid rgba(191,54,12,0.2);
+	border-radius: 50%;
+	width: 250px;
+	margin: 80px;
+
+}
+
+#header
+{
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 80px;
+	
+}
+#header h1
+{
+	font-size: 80px;
+	font-weight: normal;
+	font-family: "aileronthin";
+}
+#header h1 span
+{
+	color: #FDD835;
+	font-weight: bold;
+}
+#header h2
+{
+	font-family: "aileronbold";
+}
+
+#little_underline
+{
+	width: 60px;
+	height: 3px;
+	background-color: #FDD835;
+	margin-top: 15px;
+}
+.contact
+{
+	width: 100%;
+	
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	margin: 0 auto;
+	
+	
+}
+.aside_tittle
+{
+	display: flex;
+	background-color: #424242;
+	color: #FDD835;
+	width: 100%;
+	height: 45px;
+	padding-top: 10px;
+
+
+}
+.aside_tittle h1
+{
+	
+	width: 100%;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+
+}
+.contact_item
+{
+	width: 80%;
+	height: 280px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-around;
+	margin:20px auto;
+}
+
+.item
+{
+	
+}
+
+.about
+{
+	
+	background-color: #FDD835;
+	margin-bottom: 400px;
+}
+
+.text_about
+{
+	width: 80%;
+	margin: 45px auto;
+	text-align: justify;
+}
+
+.loisir
+{
+	margin-bottom: 30px;
+	height: 150px;
+	
+}
+.loisir_icons
+{
+	height: 50px;
+    display: flex;
+    justify-content:space-around;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+.loisir_icons i
+{
+	font-size: 30px;
+	border: 2px solid #424242;
+	border-radius: 50%;
+	color: #424242;
+	width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+
+}
+
+
+.container2
+{
+	display: flex;
+	width: auto;
+	align-content: space-between;
+}
+
+
+.aside2
+{
+	width: 25%;
+	
+	background-color: #FDD835;
+	
+	
+}
+.main_container
+{
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.container_section
+{
+	width: 90%;
+	margin: 25px auto;
+}
+
+.container_section_tittle
+{
+	display: flex;
+	border-bottom: 3px solid #FDD835;
+	justify-content: space-around;
+}
+	
+.dot_date_info
+{
+	display: flex;
+	margin: 30px auto;
+	justify-content: space-between;
+	color: #424242;
+	margin-bottom: 50px;
+
+}
+.info
+{
+	width: 70%;
+	text-align: justify;
+}
+.date
+{
+	width: 25%;
+
+}
+.dot
+{
+	width: 2%;
+	font-weight: bold;
+	color: #FDD835;
+
+}
+.circle
+{
+	width: 2%;
+	font-size: x-small;
+	color: #FDD835;
+}
+
+.container_section_tittle i
+{
+	font-size: 30px;
+	color: #FDD835;
+
+}
+
+.container_tittle
+{
+	width: 87%;
+	
+}
+
+.informations
+{
+	
+}
+
+.recom
+{
+	display: flex;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.reco
+{
+	width: 50%;
+}
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
