@@ -1,82 +1,35 @@
-@font-face {
-    font-family: 'aileronthin';
-    src: url('Aileron-Thin-webfont.eot');
-    src: url('Aileron-Thin-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Aileron-Thin-webfont.woff2') format('woff2'),
-         url('Aileron-Thin-webfont.woff') format('woff'),
-         url('Aileron-Thin-webfont.ttf') format('truetype'),
-         url('Aileron-Thin-webfont.svg#aileronthin') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'aileronbold';
-    src: url('Aileron-Bold-webfont.eot');
-    src: url('Aileron-Bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Aileron-Bold-webfont.woff2') format('woff2'),
-         url('Aileron-Bold-webfont.woff') format('woff'),
-         url('Aileron-Bold-webfont.ttf') format('truetype'),
-         url('Aileron-Bold-webfont.svg#aileronbold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'aileronregular';
-    src: url('Aileron-Regular-webfont.eot');
-    src: url('Aileron-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Aileron-Regular-webfont.woff2') format('woff2'),
-         url('Aileron-Regular-webfont.woff') format('woff'),
-         url('Aileron-Regular-webfont.ttf') format('truetype'),
-         url('Aileron-Regular-webfont.svg#aileronregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
 *
 {
 	margin: 0;
 	padding: 0;
 }
-
 body {
-	font-family: "aileronregular", sans-serif;
+	font-family: "Roboto", sans-serif;
 }
-  
-  
-
 .container
 {
 	display: flex;
 	width: auto;
-	height: 380px;
-	
+	height: 380px;	
 }
-
 .aside
 {
 	width: 25%;
-	
 	background-color: #FDD835;
 	display: flex;
-	justify-content: center;
-	
+	justify-content: center;	
 }
-
 .aside p
 {
 	color: #424242;
 }
-
 #photo img
 {
 	border: 4px solid rgba(191,54,12,0.2);
 	border-radius: 50%;
 	width: 250px;
 	margin: 80px;
-
 }
-
 #header
 {
 	width: 75%;
@@ -84,41 +37,33 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	padding-left: 80px;
-	
 }
 #header h1
 {
 	font-size: 80px;
 	font-weight: normal;
-	font-family: "aileronthin";
+	font-weight: 300;
 }
 #header h1 span
 {
 	color: #FDD835;
-	font-weight: bold;
+	font-weight: 400;
 }
 #header h2
 {
-	font-family: "aileronbold";
+	font-weight: 500;
 }
-
-#little_underline
+#header h2 span
 {
-	width: 60px;
-	height: 3px;
-	background-color: #FDD835;
-	margin-top: 15px;
+	border-bottom: 3px solid #FDD835;
 }
 .contact
 {
 	width: 100%;
-	
 	display: flex;
 	flex-direction: column;
 	align-content: center;
-	margin: 0 auto;
-	
-	
+	margin: 0 auto;	
 }
 .aside_tittle
 {
@@ -128,16 +73,13 @@ body {
 	width: 100%;
 	height: 45px;
 	padding-top: 10px;
-
-
 }
 .aside_tittle h1
 {
-	
 	width: 100%;
 	text-align: center;
 	font-size: 30px;
-	font-weight: bold;
+	font-weight: 400 ;
 
 }
 .contact_item
@@ -150,31 +92,21 @@ body {
 	justify-content: space-around;
 	margin:20px auto;
 }
-
-.item
-{
-	
-}
-
 .about
-{
-	
+{	
 	background-color: #FDD835;
 	margin-bottom: 400px;
 }
-
 .text_about
 {
 	width: 80%;
 	margin: 45px auto;
 	text-align: justify;
 }
-
 .loisir
 {
 	margin-bottom: 30px;
 	height: 150px;
-	
 }
 .loisir_icons
 {
@@ -184,7 +116,6 @@ body {
     padding: 15px;
     margin-top: 10px;
     margin-bottom: 20px;
-
 }
 .loisir_icons i
 {
@@ -196,47 +127,37 @@ body {
     height: 60px;
     text-align: center;
     line-height: 60px;
-
 }
-
-
 .container2
 {
 	display: flex;
 	width: auto;
 	align-content: space-between;
 }
-
-
 .aside2
 {
 	width: 25%;
-	
 	background-color: #FDD835;
-	
-	
 }
 .main_container
 {
 	width: 75%;
 	display: flex;
-	flex-direction: column;
-	
+	flex-direction: column;	
 }
-
 .container_section
 {
 	width: 90%;
 	margin: 25px auto;
 }
-
 .container_section_tittle
 {
 	display: flex;
 	border-bottom: 3px solid #FDD835;
 	justify-content: space-around;
+	font-weight: 400;
+	padding-bottom: 20px;
 }
-	
 .dot_date_info
 {
 	display: flex;
@@ -254,14 +175,12 @@ body {
 .date
 {
 	width: 25%;
-
 }
 .dot
 {
 	width: 2%;
 	font-weight: bold;
 	color: #FDD835;
-
 }
 .circle
 {
@@ -269,47 +188,22 @@ body {
 	font-size: x-small;
 	color: #FDD835;
 }
-
 .container_section_tittle i
 {
-	font-size: 30px;
+	font-size: 40px;
 	color: #FDD835;
-
 }
-
 .container_tittle
 {
-	width: 87%;
-	
+	width: 87%;	
 }
-
-.informations
-{
-	
-}
-
 .recom
 {
 	display: flex;
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
-
 .reco
 {
 	width: 50%;
 }
-
-
-	
-	
-
-
-
-
-
-
-
-
-
-
