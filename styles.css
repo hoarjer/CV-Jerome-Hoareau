@@ -4,7 +4,6 @@
 }
 .bloc_page{
     font-family: 'Epilogue', sans-serif;
-    
     width: 1200px;
     margin: auto;
 }
@@ -148,20 +147,25 @@ img{
     display: flex;
     margin-bottom: 50px;
     color:rgb(74 74 74);
+    border: 1px solid black;
 }
 .icon_dot, .icon_circle{
     width: 3%;
     color: rgb(254 202 7);
+    border: 1px solid black;
 }
 .icon_dot{
     font-size: 10px;
+    border: 1px solid black;
 }
 .date{
     width: 31%;
     font-weight: bolder;
+    border: 1px solid black;
 }
 .info{
     width: 66%;
+    border: 1px solid black;
 }
 .recommandations{
     display: flex;
@@ -183,4 +187,104 @@ img{
 }
 .reco h4{
     margin-bottom: 7px;
+}
+
+@media all and (max-width: 1024px)
+{
+	.bloc_page
+	{
+		width: auto;
+	}
+	header{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width:  auto;
+	}
+	aside{
+	    width: auto;
+	    background-color: rgb(254 202 7);
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	    align-items: center;
+	}
+	img{
+	    width:230px;
+	    height: 230px;
+	    border: 4px solid rgba(190,55,12,0.2);
+	    border-radius: 50%;
+	}
+	.main_header{
+	    width: auto;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center; 
+	    text-align: center;
+	    
+	    height: 300px;
+	    border: 1px solid black;
+	}
+	.main_header h1{
+	    font-size: 65px;
+	    font-weight: 200;
+	    margin-left: 0;
+	}
+	.main_header h2{
+	    color: rgb(74 74 74);
+	    margin-left: 0;
+	    font-weight: bolder;
+	}
+	.container{
+	    display: flex;
+	    flex-direction: column;
+	}
+	.main_aside
+	{
+		width: auto;
+	}
+	.main_container
+	{
+		width: auto;
+		margin-top: 50px;
+	}
+	.title_section
+	{
+		text-align: center;
+	}
+	.icon_dot, .icon_circle{
+	    width: 3%;
+	    color: rgb(254 202 7);
+	    border: 1px solid black;
+	    margin-right: 5px;
+	}
+	.icon_dot{
+	    font-size: 10px;
+	    border: 1px solid black;
+	    margin-right: 5px;
+	}
+	.date{
+	    width: 31%;
+	    font-weight: bolder;
+	    border: 1px solid black;
+	}
+	.contact{
+	    height: 400px;
+	    display: flex;
+	    flex-direction: column;
+	    font-weight:500 ;   
+	}
+	.contact_items{
+	    display: flex;
+	    flex-direction: column;
+	    height: 70%;
+	    justify-content: space-between;
+	    align-items: center;
+	}
+	.about{
+	    height: auto;
+	    font-weight: 500;
+	    margin-bottom: 50px;
+	}
+
 }
