@@ -194,6 +194,7 @@ img{
 	.bloc_page
 	{
 		width: auto;
+		font-size: 25px;
 	}
 	header{
         display: flex;
@@ -214,6 +215,7 @@ img{
 	    height: 500px;
 	    border: 4px solid rgba(190,55,12,0.2);
 	    border-radius: 50%;
+	    margin: 30px auto;
 	}
 	.main_header{
 	    width: auto;
