@@ -6,6 +6,7 @@
     font-family: 'Epilogue', sans-serif;
     width: 1200px;
     margin: auto;
+    font-size: 1em;
 }
 header{
     display: flex;
@@ -33,7 +34,7 @@ img{
     justify-content: center;  
 }
 .main_header h1{
-    font-size: 65px;
+    font-size: 4em;
     font-weight: 200;
     margin-left: 85px;
 }
@@ -69,7 +70,7 @@ img{
     padding-bottom: 5px;
 }
 .contact{
-    height: 400px;
+    
     display: flex;
     flex-direction: column;
     font-weight:500 ;
@@ -83,15 +84,15 @@ img{
 .contact_items{
     display: flex;
     flex-direction: column;
-    height: 70%;
-    justify-content: space-between;
+    height: 400px;
+    justify-content: space-around;
+    margin: 20px auto;
 }
 .about{
-    height: 780px;
     font-weight: 500;
 }
 .text_about{   
-    margin-top: 30px;
+    margin: 30px auto;
 }
 .section{
     width: 80%;
@@ -121,20 +122,20 @@ img{
     display: flex;
     margin-bottom: 50px;
     color:rgb(74 74 74);
+    justify-content: space-between;
 }
 .icon_dot, .icon_circle{
-    width: 3%;
     color: rgb(254 202 7);
 }
 .icon_dot{
     font-size: 10px;
 }
 .date{
-    width: 31%;
+    width:30%; 
     font-weight: bolder;
 }
 .info{
-    width: 66%;
+    width: 65%;
 }
 footer
 {
@@ -163,11 +164,11 @@ footer
 .recommandations{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .reco{
     padding-top: 30px;
-    width: 50%;
-    height: 110px
+    width: 45%;
     color: rgb(74 74 74);
     margin-top: 10px; 
     display: flex;
@@ -180,12 +181,12 @@ footer
     margin-bottom: 7px;
 }
 
-@media all and (max-width: 1024px)
+@media screen and (max-width: 1024px) and (min-width: 768px)
 {
 	.bloc_page , header , aside , .main_header , .main_aside , .footer_aside , .main_footer
 	{
 		width: auto;
-		font-size: 
+		font-size: 1em;
 	}
 	header{
         display: flex;
@@ -193,22 +194,73 @@ footer
         height: auto; 
 	}
 	img{
-	    width:500px;
-	    height: 500px;
-	    border: 10px solid rgba(190,55,12,0.2);
+	    margin: 20px;
+	}
+	.main_header{
+	    justify-content: center;
+	    margin: 50px auto;
+	    width: 80%;	    
+	}
+
+	.container{
+	    display: flex;
+	    flex-direction: column;
+	}
+    .title{
+        background-color: rgb(74 74 74);
+        text-align: center;
+        color: rgb(254 202 7);
+        font-weight: lighter;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        font-size: 20px;
+    }
+    .section{
+    	box-shadow: 2px 2px 2px rgb(74 74 74);
+    	border-radius: 10px;
+    }
+	.main_container
+	{
+		width: auto;
+		margin-top: 50px;
+	}
+
+    footer{
+    	flex-direction: column-reverse;
+    	height: 450px;
+    	justify-content: space-between;
+    }
+    .loisir_icons{
+    	padding-top: 30px;
+    	padding-bottom: 30px;
+    }
+    .main_footer{
+    	padding-bottom: 30px;
+    	padding-top: 30px;
+    }
+}
+@media screen and (max-width: 768px){
+	.bloc_page , header , aside , .main_header , .main_aside , .footer_aside , .main_footer
+	{
+		width: auto;
+		font-size: 0.9em;
+	}
+	header{
+        display: flex;
+        flex-direction: column;
+        height: auto; 
+	}
+	img{
+	    margin: 20px;
 	}
 	.main_header{
 	    display: flex;
 	    flex-direction: column;
 	    justify-content: center; 
 	    text-align: center;
-	    margin: 60px;
-	    
-	    height: 
-	    
+	    margin: 60px;  
 	}
 	.main_header h1{
-
 	    font-weight: 200;
 	    margin-left: 0;
 	}
@@ -230,65 +282,19 @@ footer
         padding-bottom: 5px;
         font-size: 20px;
     }
+    .section{
+    	box-shadow: 2px 2px 2px rgb(74 74 74);
+    	border-radius: 10px;
+    }
 	.main_container
 	{
 		width: auto;
 		margin-top: 50px;
 	}
-	.title_section
-	{
-		text-align: center;
-	}
-	.title_icon i{
-		font-size: 60px;
-	}
-    .icon_date_info{
-        display: flex;
-        flex-wrap: wrap;
-        margin-bottom: 50px;
-        color:rgb(74 74 74);
-       
-    }
-	.icon_dot, .icon_circle{
-	    width: 3%;
-	    color: rgb(254 202 7);
-       
-	    margin-right: 10px;
-
-	}
-	.icon_dot{
-	    font-size: 20px;
-        
-	    margin-right: 5px;
-	}
-	.date{
-	    width: 31%;
-	    font-weight: bolder;
-	   
-	}
-    .info{
-        width: 66%;
-        
-        align-content: center;
-        width: auto;
-        text-align: justify;
-    }
-    .info h2 , h3{
-        text-align: center;
-    }
 	.contact{
-	    height: 600px;
-	    display: flex;
-	    flex-direction: column;
-	    font-weight:500 ;   
+	    height: 300px;   
 	}
-	.contact_items{
-	    display: flex;
-	    flex-direction: column;
-	    height: 70%;
-	    justify-content: space-between;
-	    align-items: flex-start;    
-	}
+
     .items
     {  
         margin-bottom: 10px;
@@ -302,8 +308,8 @@ footer
         margin-top: 30px;
     }
     footer{
-    	flex-direction: column;
-    	height: 450px;
+    	flex-direction: column-reverse;
+    	height:
     	justify-content: space-between;
     }
     .loisir_icons{
@@ -316,5 +322,9 @@ footer
     }
     .recommandations{
     	flex-direction: column;
+    	width: auto;
+    }
+    .reco{
+    	width: 80%;
     }
 }
