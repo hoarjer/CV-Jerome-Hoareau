@@ -121,7 +121,7 @@ img{
     width: 85%;
 }
 .title_section h1{
-	font-size: 2em;
+	font-size: 1.7em;
 }
 .tableau_section{
     margin-top: 10px;
@@ -145,6 +145,8 @@ img{
 }
 .info{
     width: 65%;
+    text-align: justify;
+    padding-right: 5px;
 }
 .info h2{
 	font-size: 1.5em;
@@ -195,7 +197,7 @@ footer
 
 @media screen and (max-width: 1024px) and (min-width: 768px)
 {
-	.bloc_page , header , aside , .main_header , .main_aside , .footer_aside , .main_footer
+	.bloc_page , header , aside , .main_header , .main_aside , .footer_aside , .main_footer , section
 	{
 		width: auto;
 		font-size: 1em;
@@ -244,7 +246,7 @@ footer
     }
 }
 @media screen and (max-width: 768px){
-	.bloc_page , header , aside , .main_header , .main_aside , .footer_aside , .main_footer
+	.bloc_page , header , aside , .main_header , .main_aside , .footer_aside , .main_footer , section
 	{
 		width: auto;
 		font-size: 0.9em;
@@ -262,7 +264,7 @@ footer
 	    flex-direction: column;
 	    justify-content: center; 
 	    text-align: center;
-	    margin: 60px;  
+	    margin: 60px; 
 	}
 	.main_header h1{
 	    font-weight: 200;
@@ -277,10 +279,13 @@ footer
 	    display: flex;
 	    flex-direction: column;
 	}
-
+	.header_section{
+		justify-content: space-around;
+	}
     .section{
     	box-shadow: 2px 2px 2px rgb(74 74 74);
     	border-radius: 10px;
+    	width: 98%;
     }
 	.main_container
 	{
