@@ -64,14 +64,14 @@ img{
     flex-direction: column;
 }
 
-.title{
+.title_aside{
     background-color: rgb(74 74 74);
     text-align: center;
     color: rgb(254 202 7);
     padding-top: 10px;
     padding-bottom: 5px;  
 }
-.title h1{
+.title_aside h1{
 	font-size: 2em;
 }
 .contact{
@@ -126,7 +126,7 @@ img{
 .title_section h1{
 	font-size: 1.7em;
 }
-.tableau_section{
+.table_section{
     margin-top: 10px;
     padding-top: 40px;
 }
