@@ -9,9 +9,9 @@ body{
 .bloc_page{
     
     width: 1200px;
-    margin: auto;
-    
+    margin: auto;  
 }
+/*haut de page aside et main*/
 header{
     display: flex;
     height: 330px;
@@ -27,7 +27,6 @@ aside{
     align-items: center;
 }
 img{
-
     border: 4px solid rgba(190,55,12,0.2);
     border-radius: 50%;
 }
@@ -54,17 +53,17 @@ img{
     color: rgb(254 202 7);
     font-weight: 400;  
 }
+/*corps de page aside + main*/
 .container{
     display: flex;
 }
+/*aside*/
 .main_aside , .footer_aside{
     background-color: rgb(254 202 7);
     display: flex;
     flex-direction: column;
 }
-.main_header , .main_container , .main_footer{
-    width: 804px;   
-}
+
 .title{
     background-color: rgb(74 74 74);
     text-align: center;
@@ -99,6 +98,10 @@ img{
 }
 .text_about{   
     margin: 30px auto;
+}
+/*Main*/
+.main_header , .main_container , .main_footer{
+    width: 804px;   
 }
 .section{
     width: 80%;
@@ -135,7 +138,6 @@ img{
 }
 .icon_dot, .icon_circle{
     color: rgb(254 202 7);
-    border: 1px solid black;
 }
 .icon_dot{
     font-size: 10px;
@@ -143,21 +145,21 @@ img{
 .date{
     width:25%; 
     font-weight: bolder;
-    border: 1px solid black;
 }
 .info{
     width: 65%;
     text-align: justify;
     padding-right: 5px;
-    border: 1px solid black;
 }
 .info h2{
 	font-size: 1.5em;
 }
+/*bas de page aside et main*/
 footer
 {
 	display: flex;
 }
+/*aside*/
 .loisir{
     height: 150px;  
     display: flex; 
@@ -178,6 +180,7 @@ footer
     text-align: center;
     line-height: 60px;
 }
+/*main*/
 .recommandations{
     display: flex;
     align-items: center;
@@ -197,7 +200,7 @@ footer
 .reco h4{
     margin-bottom: 7px;
 }
-
+/*responsive tablette*/
 @media screen and (max-width: 1024px) and (min-width: 768px)
 {
 	.bloc_page , header , aside , .main_header , .main_aside , .footer_aside , .main_footer , section
@@ -223,18 +226,15 @@ footer
 	    display: flex;
 	    flex-direction: column;
 	}
-
     .section{
     	box-shadow: 2px 2px 2px rgb(74 74 74);
     	border-radius: 10px;
     	padding: 10px;
     }
-	.main_container
-	{
+	.main_container{
 		width: auto;
 		margin-top: 50px;
 	}
-
     footer{
     	flex-direction: column-reverse;
     	height: 450px;
@@ -249,6 +249,7 @@ footer
     	padding-top: 30px;
     }
 }
+/*responsive smartphone*/
 @media screen and (max-width: 768px){
 	.bloc_page , header , aside , .main_header , .main_aside , .footer_aside , .main_footer , section
 	{
@@ -260,9 +261,11 @@ footer
         flex-direction: column;
         height: auto; 
 	}
+	/*headre aside*/
 	img{
 	    margin: 20px;
 	}
+	/*main header*/
 	.main_header{
 	    display: flex;
 	    flex-direction: column;
@@ -279,27 +282,12 @@ footer
 	    margin-left: 0;
 	    font-weight: bolder;
 	}
+	/*corps de page*/
 	.container{
 	    display: flex;
 	    flex-direction: column;
 	}
-	.header_section{
-		justify-content: space-around;
-	}
-    .section{
-    	box-shadow: 2px 2px 2px rgb(74 74 74);
-    	border-radius: 10px;
-    	width: 95%;
-    	padding: 10px;
-    }
-    .info{
-    	text-align: left;
-    }
-	.main_container
-	{
-		width: auto;
-		margin-top: 50px;
-	}
+	/*aside*/
 	.contact{
 	    height: 300px;   
 	}
@@ -316,15 +304,36 @@ footer
     .text_about{   
         margin-top: 30px;
     }
+    /*main*/
+    .main_container
+	{
+		width: auto;
+		margin-top: 50px;
+	}
+	.header_section{
+		justify-content: space-around;
+	}
+    .section{
+    	box-shadow: 2px 2px 2px rgb(74 74 74);
+    	border-radius: 10px;
+    	width: 95%;
+    	padding: 10px;
+    }
+    .info{
+    	text-align: left;
+    }
+	/*bas de page*/
     footer{
     	flex-direction: column-reverse;
     	height:
     	justify-content: space-between;
     }
+    /*aside*/
     .loisir_icons{
     	padding-top: 30px;
     	padding-bottom: 30px;
     }
+    /*main*/
     .main_footer{
     	padding-bottom: 30px;
     	padding-top: 30px;
