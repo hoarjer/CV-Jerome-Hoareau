@@ -135,18 +135,21 @@ img{
 }
 .icon_dot, .icon_circle{
     color: rgb(254 202 7);
+    border: 1px solid black;
 }
 .icon_dot{
     font-size: 10px;
 }
 .date{
-    width:30%; 
+    width:25%; 
     font-weight: bolder;
+    border: 1px solid black;
 }
 .info{
     width: 65%;
     text-align: justify;
     padding-right: 5px;
+    border: 1px solid black;
 }
 .info h2{
 	font-size: 1.5em;
@@ -224,6 +227,7 @@ footer
     .section{
     	box-shadow: 2px 2px 2px rgb(74 74 74);
     	border-radius: 10px;
+    	padding: 10px;
     }
 	.main_container
 	{
@@ -285,7 +289,11 @@ footer
     .section{
     	box-shadow: 2px 2px 2px rgb(74 74 74);
     	border-radius: 10px;
-    	width: 98%;
+    	width: 95%;
+    	padding: 10px;
+    }
+    .info{
+    	text-align: left;
     }
 	.main_container
 	{
