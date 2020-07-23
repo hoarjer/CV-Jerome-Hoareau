@@ -205,13 +205,12 @@ footer
 /*responsive tablette*/
 @media screen and (max-width: 1024px) and (min-width: 768px)
 {
-	.bloc_page , header , aside , .main_header , .main_aside , .footer_aside , .main_footer , section
+	.bloc_page , header , aside , .main_header , .main_container , .main_aside , .footer_aside , .main_footer , section
 	{
 		width: auto;
 		font-size: 1em;
 	}
 	header{
-        display: flex;
         flex-direction: column;
         height: auto; 
 	}
@@ -219,13 +218,10 @@ footer
 	    margin: 20px;
 	}
 	.main_header{
-	    justify-content: center;
 	    margin: 50px auto;
 	    width: 80%;	    
 	}
-
 	.container{
-	    display: flex;
 	    flex-direction: column;
 	}
     .section{
@@ -233,13 +229,9 @@ footer
     	border-radius: 10px;
     	padding: 10px;
     }
-	.main_container{
-		width: auto;
-	}
     footer{
     	flex-direction: column-reverse;
     	justify-content: space-between;
-
     }
     .loisir_icons{
     	padding-top: 30px;
@@ -249,13 +241,12 @@ footer
 }
 /*responsive smartphone*/
 @media screen and (max-width: 768px){
-	.bloc_page , header , aside , .main_header , .main_aside , .footer_aside , .main_footer , section
+	.bloc_page , header , aside , .main_header , .main_container , .main_aside , .footer_aside , .main_footer , section
 	{
 		width: auto;
 		font-size: 0.8em;
 	}
 	header{
-        display: flex;
         flex-direction: column;
         height: auto; 
 	}
@@ -265,38 +256,25 @@ footer
 	}
 	/*main header*/
 	.main_header{
-	    display: flex;
-	    flex-direction: column;
-	    justify-content: center; 
 	    text-align: center;
 	    margin: 60px; 
 	}
 	.main_header h1{
-	    font-weight: 200;
 	    margin-left: 0;
 	}
 	.main_header h2{
-	    color: rgb(74 74 74);
 	    margin-left: 0;
-	    font-weight: bolder;
 	}
 	/*corps de page*/
 	.container{
-	    display: flex;
 	    flex-direction: column;
 	}
 	/*aside*/
-	.contact{
-	    height: 300px;   
-	}
-
     .items
     {  
         margin-bottom: 10px;
     }
 	.about{
-	    height: auto;
-	    font-weight: 500;
 	    margin-bottom: 50px;
 	}
     .text_about{   
@@ -304,11 +282,6 @@ footer
         text-align: left;
     }
     /*main*/
-    .main_container
-	{
-		width: auto;
-		
-	}
     .section{
     	box-shadow: 2px 2px 2px rgb(74 74 74);
     	border-radius: 10px;
@@ -325,7 +298,7 @@ footer
     footer{
     	flex-direction: column-reverse;
     	justify-content: space-between;
-    	font-size: 1.2em;
+    	font-size: 1.1em;
     }
     /*aside*/
     .footer_aside{
