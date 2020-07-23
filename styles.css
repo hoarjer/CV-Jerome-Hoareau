@@ -315,6 +315,9 @@ footer
     .info{
     	text-align: left;
     }
+    .info h2{
+    	font-size: 1.3em;
+    }
 	/*bas de page*/
     footer{
     	flex-direction: column-reverse;
