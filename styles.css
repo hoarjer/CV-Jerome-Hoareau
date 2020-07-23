@@ -75,7 +75,6 @@ img{
 	font-size: 2em;
 }
 .contact{
-    
     display: flex;
     flex-direction: column;
     font-weight:500;
@@ -98,6 +97,7 @@ img{
 }
 .text_about{   
     margin: 30px auto;
+    font-size: 1.2em;
 }
 /*Main*/
 .main_header , .main_container , .main_footer{
@@ -106,23 +106,20 @@ img{
 .section{
     width: 80%;
     margin: auto;
-    margin-bottom: 20px;
+   	padding-top: 15px;
 }
 .header_section{
     display: flex;
-    justify-content: space-between;
     border-bottom: 3px solid rgb(254 202 7);
 }
 .title_icon{
-    width: 7%;
+    padding-right: 10px;
 }
 .title_icon i{
     font-size: 2em;
     color:rgb(254 202 7);
 }
-.title_section{
-    width: 85%;
-}
+
 .title_section h1{
 	font-size: 1.7em;
 }
@@ -145,6 +142,7 @@ img{
 .date{
     width:25%; 
     font-weight: bolder;
+    font-size: 0.9em;
 }
 .info{
     width: 65%;
@@ -159,9 +157,8 @@ footer
 {
 	display: flex;
 }
-/*aside*/
+/*footer_aside*/
 .loisir{
-    height: 150px;  
     display: flex; 
     flex-direction: column;
 }
@@ -180,20 +177,22 @@ footer
     text-align: center;
     line-height: 60px;
 }
-/*main*/
+/*main_footer*/
 .recommandations{
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 .reco{
-    padding-top: 30px;
+    padding-top: 20px;
     width: 45%;
     color: rgb(74 74 74);
     margin-top: 10px; 
     display: flex;
     flex-direction: column;
 }
+
 .reco h3{
     margin-bottom: 10px;
 }
@@ -233,21 +232,17 @@ footer
     }
 	.main_container{
 		width: auto;
-		margin-top: 50px;
 	}
     footer{
     	flex-direction: column-reverse;
-    	height: 450px;
     	justify-content: space-between;
+
     }
     .loisir_icons{
     	padding-top: 30px;
     	padding-bottom: 30px;
     }
-    .main_footer{
-    	padding-bottom: 30px;
-    	padding-top: 30px;
-    }
+
 }
 /*responsive smartphone*/
 @media screen and (max-width: 768px){
@@ -309,15 +304,12 @@ footer
     .main_container
 	{
 		width: auto;
-		margin-top: 50px;
-	}
-	.header_section{
-		justify-content: space-around;
+		
 	}
     .section{
     	box-shadow: 2px 2px 2px rgb(74 74 74);
     	border-radius: 10px;
-    	width: 80%;
+    	width: 85%;
     	padding: 10px;
     }
     .info{
@@ -326,19 +318,18 @@ footer
 	/*bas de page*/
     footer{
     	flex-direction: column-reverse;
-    	height:
     	justify-content: space-between;
+    	font-size: 1.2em;
     }
     /*aside*/
+    .footer_aside{
+    	margin-top: 10px;
+    }
     .loisir_icons{
     	padding-top: 30px;
     	padding-bottom: 30px;
     }
     /*main*/
-    .main_footer{
-    	padding-bottom: 30px;
-    	padding-top: 30px;
-    }
     .recommandations{
     	flex-direction: column;
     	width: auto;
