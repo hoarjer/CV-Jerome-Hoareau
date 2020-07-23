@@ -43,11 +43,13 @@ img{
 .main_header h2 span
 {
 	border-bottom: 3px solid rgb(254 202 7);
+	
 }
 .main_header h2{
     color: rgb(74 74 74);
     margin-left: 85px;
     font-weight: bolder;
+    font-size: 2em;
 }
 .main_header h1 span{
     color: rgb(254 202 7);
@@ -91,6 +93,7 @@ img{
     height: 300px;
     justify-content: space-around;
     margin: 20px auto;
+    font-size: 1.2em;
 }
 .about{
     font-weight: 500;
