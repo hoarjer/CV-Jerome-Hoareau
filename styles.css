@@ -261,7 +261,7 @@ footer
 	.bloc_page , header , aside , .main_header , .main_container , .main_aside , .footer_aside , .main_footer , section
 	{
 		width: auto;
-		font-size: 0.8em;
+		font-size: 0.9em;
 	}
 
 	/*********************************** haut de page *****************/
